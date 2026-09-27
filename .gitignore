@@ -1,0 +1,8 @@
+node_modules/
+.env
+cdn-smd-mini.js
+.npm/
+.xcache/
+.files/
+session/
+*.log

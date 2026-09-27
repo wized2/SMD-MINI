@@ -1,87 +1,18 @@
 {
-  "name": "SMD-MiNi",
-  "description": "Javascript WhatsApp bot powered by Team-Bandaheali",
-  "logo": "https://bandaheali-cdn.koyeb.app/bandaheali/smd.jpg",
-  "keywords": [
-    "SMD-MiNi",
-    "Bandaheali",
-    "Team-Bandaheali",
-    "WhatsApp Bot",
-    "Baileys Bot",
-    "Nodejs Bot"
-  ],
-  "success_url": "/",
-  "stack": "heroku-24",
-
-  "env": {
-    "DATABASE_URL": {
-      "description": "Paste your MongoDB OR PostgreSQL connection string here. Example: mongodb+srv://... (MongoDB) OR postgresql://... (PostgreSQL / Supabase). If left empty, bot will automatically use local memory database.",
-      "required": false
-    },
-
-    "OWNER_NUMBER": {
-      "description": "Bot owner WhatsApp number without + sign",
-      "value": "923253617422",
-      "required": true
-    },
-
-    "PREFIX": {
-      "description": "Command prefix for bot",
-      "value": ".",
-      "required": false
-    },
-
-    "BOT_NAME": {
-      "description": "Bot display name",
-      "value": "Rashid",
-      "required": false
-    },
-
-    "OWNER_NAME": {
-      "description": "Bot owner name",
-      "value": "THE-DEVIL",
-      "required": false
-    },
-
-    "CAPTION": {
-      "description": "Footer caption used in bot messages",
-      "value": "POWERED BY TEAM-BANDAHEALI",
-      "required": false
-    },
-
-    "STATUS_MSG": {
-      "description": "Bot auto status message",
-      "value": "Hello From Team-Bandaheali",
-      "required": false
-    },
-
-    "NEWSLETTER_JID": {
-      "description": "WhatsApp newsletter/channel JID",
-      "value": "120363175375282051@newsletter",
-      "required": false
-    },
-
-    "MENU_IMG": {
-      "description": "Menu image URL",
-      "value": "https://bandaheali-cdn.koyeb.app/bandaheali/smd.jpg",
-      "required": false
-    },
-
-    "SITE_URL": {
-      "description": "Pairing website URL",
-      "value": "https://smd-mini.vercel.app",
-      "required": false
-    },
-
-    "PORT": {
-      "description": "Server port (optional)",
-      "required": false
-    }
-  },
-
+  "name": "♥️GOLD MD PAIR QR♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://i.ibb.co/wspzc9t/IMG-20240328-WA0000.jpg",
+  "repository": "https://github.com/1122bot/1X-MINI",
+  "keywords": ["@BiLaLTeCh05"],
+  "success_url": "/", 
   "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || UMAR 🔰",
+      "required": false 
     }
-  ]
+  }
 }
